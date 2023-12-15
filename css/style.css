@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html, 
 body {
     margin: 0;
@@ -9,4 +13,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #FAFAFA;
     margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    padding-top: 1.5em;
+    margin: 0 auto;
 }
