@@ -41,6 +41,18 @@ body {
     max-width: 900px;
 }
 
+/* typography */
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.hero-text p {
+    margin: 0.5em 0 0.8em;
+    font-size: 0.8rem;
+}
+
 /* grid */
 
 .posts {
@@ -57,6 +69,11 @@ img {
     width: 100%;
 }
 
+.article-info,
+.article-preview {
+    font-size: 0.9rem;    
+}
+
 .article-info {
     text-transform: uppercase;
 }
@@ -66,7 +83,7 @@ img {
 }
 
 .article-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0.5em 0 0.35em 0;
 }
 
@@ -76,4 +93,17 @@ img {
 
 p {
     line-height: 1.3;
+}
+
+/* media queries */
+
+@media (min-width: 500px) {
+    .article-info,
+    .article-preview {
+        font-size: 1.1rem;  
+    }
+    
+    .article-title {
+        font-size: 1.5rem;
+    }
 }
