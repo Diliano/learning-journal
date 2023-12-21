@@ -106,4 +106,12 @@ p {
     .article-title {
         font-size: 1.5rem;
     }
+    
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+    }
 }
