@@ -41,6 +41,11 @@ body {
     max-width: 900px;
 }
 
+footer {
+    background: #202020;
+    padding: 2.5em 0;
+}
+
 /* typography */
 
 .hero-text h1 {
@@ -51,6 +56,16 @@ body {
 .hero-text p {
     margin: 0.5em 0 0.8em;
     font-size: 0.8rem;
+}
+
+footer p {
+    margin: 0;
+    color: #ECECEC;
+    text-align: center;
+}
+
+.footer-title {
+    font-weight: 700;
 }
 
 /* grid */
@@ -70,7 +85,8 @@ img {
 }
 
 .article-info,
-.article-preview {
+.article-preview,
+footer p {
     font-size: 0.9rem;    
 }
 
@@ -99,7 +115,8 @@ p {
 
 @media (min-width: 500px) {
     .article-info,
-    .article-preview {
+    .article-preview,
+    footer p {
         font-size: 1.1rem;  
     }
     
