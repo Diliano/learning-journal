@@ -161,11 +161,9 @@ p {
         height: 40px;
     }
     
-    .logo-title-container p {
-        font-size: 1.2rem; 
-    }
-
-    a {
+    .logo-title-container p,
+    a,
+    .hero-text p {
         font-size: 1.2rem; 
     }
     
@@ -181,9 +179,5 @@ p {
     
     .hero-text h1 {
         font-size: 2rem;
-    }
-
-    .hero-text p {
-        font-size: 1.2rem;
     }
 }
